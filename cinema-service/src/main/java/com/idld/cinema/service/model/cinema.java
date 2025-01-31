@@ -17,7 +17,7 @@ public class cinema {
     private String name;
 
     @ElementCollection
-    private List<String> images; // Stores image URLs for the cinema
+    private List<String> images;
 
     @Column(nullable = false )
     private String address;

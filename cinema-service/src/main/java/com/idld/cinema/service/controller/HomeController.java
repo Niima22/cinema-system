@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/home") // ✅ Add base path to avoid conflict with UserController
+@RequestMapping("/home") 
 public class HomeController {
 
     @GetMapping
